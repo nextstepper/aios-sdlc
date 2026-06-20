@@ -1,0 +1,8 @@
+{
+  "name": "aios-sdlc",
+  "version": "1.5.0",
+  "description": "Agentic SDLC engine for Claude Code \u2014 multi-agent spec-driven development, peer review, deployment tracking, and incident management.",
+  "author": {
+    "name": "nextstepper"
+  }
+}

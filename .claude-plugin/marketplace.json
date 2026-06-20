@@ -1,0 +1,18 @@
+{
+  "name": "aios-sdlc",
+  "description": "Agentic SDLC pipeline for Claude Code \u2014 spec to deploy",
+  "owner": {
+    "name": "nextstepper"
+  },
+  "plugins": [
+    {
+      "name": "aios-sdlc",
+      "source": {
+        "source": "github",
+        "repo": "nextstepper/aios-sdlc"
+      },
+      "description": "8 skills + 6 specialized agents covering the full SDLC lifecycle on top of GitHub Spec Kit",
+      "version": "1.5.0"
+    }
+  ]
+}
