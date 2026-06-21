@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.svg" alt="aios-sdlc — Agentic SDLC Engine" width="360" />
+  <img src="https://raw.githubusercontent.com/nextstepper/aios-sdlc/main/assets/logo.svg" alt="aios-sdlc — Agentic SDLC Engine" width="360" />
 </p>
 
 <p align="center">
