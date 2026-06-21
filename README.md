@@ -1,6 +1,10 @@
-# aios-sdlc
+<p align="center">
+  <img src="assets/logo.svg" alt="aios-sdlc — Agentic SDLC Engine" width="360" />
+</p>
 
-> Multi-agent SDLC engine for Claude Code. Spec to ship — with parallel review, peer verdicts, and zero hand-rolled orchestration.
+<p align="center">
+  <strong>Multi-agent SDLC engine for Claude Code. Spec to ship — with parallel review, peer verdicts, and zero hand-rolled orchestration.</strong>
+</p>
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Claude Code](https://img.shields.io/badge/Claude_Code-Plugin-blue)](https://docs.claude.com/en/docs/claude-code)

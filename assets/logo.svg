@@ -1,0 +1,44 @@
+<svg width="320" height="96" viewBox="0 0 320 96" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <title>aios-sdlc — Agentic SDLC Engine</title>
+
+  <!-- Icon: orchestrator + 6 agents (hexagonal constellation) -->
+  <g transform="translate(48, 48)">
+    <!-- Connection lines from orchestrator to each agent -->
+    <g stroke="#CBD5E1" stroke-width="1.5" stroke-linecap="round">
+      <line x1="0" y1="0" x2="0" y2="-28" />
+      <line x1="0" y1="0" x2="24" y2="-14" />
+      <line x1="0" y1="0" x2="24" y2="14" />
+      <line x1="0" y1="0" x2="0" y2="28" />
+      <line x1="0" y1="0" x2="-24" y2="14" />
+      <line x1="0" y1="0" x2="-24" y2="-14" />
+    </g>
+
+    <!-- "Active" connection lines (highlighted to show parallel dispatch) -->
+    <g stroke="#F59E0B" stroke-width="2" stroke-linecap="round">
+      <line x1="0" y1="0" x2="24" y2="-14" />
+      <line x1="0" y1="0" x2="-24" y2="-14" />
+    </g>
+
+    <!-- Agent nodes -->
+    <g fill="#1E293B">
+      <circle cx="0" cy="-28" r="5" />
+      <circle cx="24" cy="-14" r="5" />
+      <circle cx="24" cy="14" r="5" />
+      <circle cx="0" cy="28" r="5" />
+      <circle cx="-24" cy="14" r="5" />
+      <circle cx="-24" cy="-14" r="5" />
+    </g>
+
+    <!-- Orchestrator center (accent) -->
+    <circle cx="0" cy="0" r="10" fill="#F59E0B" />
+    <circle cx="0" cy="0" r="10" fill="none" stroke="#F59E0B" stroke-width="1.5" stroke-opacity="0.3" transform="scale(1.6)" />
+  </g>
+
+  <!-- Wordmark -->
+  <g transform="translate(112, 0)">
+    <text x="0" y="56" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', sans-serif"
+          font-size="34" font-weight="700" fill="#0F172A" letter-spacing="-1.2">aios-sdlc</text>
+    <text x="2" y="74" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', sans-serif"
+          font-size="9" font-weight="600" fill="#64748B" letter-spacing="2.5">AGENTIC SDLC ENGINE</text>
+  </g>
+</svg>
