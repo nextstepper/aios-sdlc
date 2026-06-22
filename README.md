@@ -40,6 +40,14 @@ Stop vibe-coding production features. `aios-sdlc` extends [GitHub Spec Kit](http
 
 The **orchestrator** spawns these in parallel where independent (e.g., BA + UX during spec review) and aggregates findings into a single APPROVED / NEEDS CLARIFICATION / BLOCKED verdict.
 
+## Reference Architecture
+
+The plugin's design is informed by enterprise agentic SDLC patterns — an Orchestrator/Enabler role coordinating specialized agents (UX, BA, Security, Dev, QA), governed by a Constitution and producing structured artifacts (`SPECIFY.MD`, `PLAN.MD`, `TASKS.MD`) on a one-week sprint cadence with continuous peer review feedback.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/nextstepper/aios-sdlc/main/assets/reference-architecture.png" alt="Agentic SDLC reference architecture" width="720" />
+</p>
+
 ## Install
 
 ### 1. Install Spec Kit (one-time)
